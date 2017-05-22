@@ -1,0 +1,10 @@
+#set( $orderObject = $body.get(0).get('com.redhat.training.Order'))
+Dear Customer,
+
+Your order number $orderObject.id was processed successfully!
+
+The $orderObject.description will be charged in your credit card, in a total amount of US$ $orderObject.price.
+
+Sincerely
+
+Red Hat Training

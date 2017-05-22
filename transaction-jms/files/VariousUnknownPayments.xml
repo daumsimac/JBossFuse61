@@ -1,0 +1,19 @@
+<Payments>
+	<Currency>US</Currency>
+	<Payment>
+		<from>ade</from>
+		<to>jade</to>
+		<amount>1000000</amount>
+	</Payment>
+	<Payment>
+		<from>jack</from>
+		<to>jill</to>
+		<amount>20</amount>
+	</Payment>
+	<Payment>
+		<from>ade</from>
+		<to>jill</to>
+		<amount>42.0</amount>
+	</Payment>
+</Payments>
+

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1495235916665
+Build-Jdk: 1.7.0_09-icedtea
+Built-By: student
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Exercises: Spring Routes
+Bundle-SymbolicName: com.redhat.training.dev-spring
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.redhat.training;uses:="org.apache.camel.builder,org.
+ apache.camel.model";version="1.0.0"
+Import-Package: org.apache.activemq,org.apache.camel.builder;version="[2
+ .12,3)",org.apache.camel.component.jms;version="[2.12,3)",org.apache.ca
+ mel.model;version="[2.12,3)",org.slf4j;version="1.6.1"
+Tool: Bnd-1.50.0
